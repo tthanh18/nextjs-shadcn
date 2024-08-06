@@ -10,6 +10,8 @@ cloudbuild.beta.yaml
 cloudbuild.production.yaml
 cloudbuild.staging.yaml
 
+tailwind.config.js
+
 .env
 
 *.css
