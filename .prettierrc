@@ -1,0 +1,23 @@
+{
+    "arrowParens": "always",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "embeddedLanguageFormatting": "auto",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxSingleQuote": true,
+    "printWidth": 130,
+    "proseWrap": "preserve",
+    "quoteProps": "consistent",
+    "requirePragma": false,
+    "singleAttributePerLine": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "useTabs": false,
+    "vueIndentScriptAndStyle": false,
+    "semi": false,
+    "importOrder": ["(.*).css", "^react(.*)", "@/(.*)", "^[./]", "<THIRD_PARTY_MODULES>", "@mantine/(.*)"],
+    "importOrderSeparation": false,
+    "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}
