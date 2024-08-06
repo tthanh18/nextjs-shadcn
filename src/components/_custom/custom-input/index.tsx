@@ -1,6 +1,12 @@
 import { FC } from 'react'
-import { Input } from '@/components/ui/input'
+import { Input, InputProps } from '@/components/ui/input'
 
-export const CustomInput: FC = () => {
-    return <Input />
+interface ICustomInputProps extends InputProps {
+    isNumber?: boolean
+}
+
+export const CustomInput: FC<ICustomInputProps> = (props) => {
+    const { isNumber, ...rest } = props
+
+    return <Input {...rest} />
 }
