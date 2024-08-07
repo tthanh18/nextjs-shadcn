@@ -7,10 +7,12 @@ import {
     BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb'
 import { Button } from '@/components/ui/button'
+import { SectionHero } from './landing-page/section-hero'
 
 export default function Home() {
     return (
         <main className='flex flex-col items-center justify-between pt-10 gap-5 '>
+            <SectionHero />
             <div className='z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex'>
                 <div className='space-y-2'>
                     <Breadcrumb>
